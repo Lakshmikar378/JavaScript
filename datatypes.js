@@ -1,0 +1,20 @@
+let length=18;
+let lastName="johnson";
+let x={firstName:"john",lastName:"doe"};
+console.log(x);
+let y=18+"volvo";
+console.log(y);
+let z=18+4+"volvo";
+console.log(z);
+let c="volvo"+13+3;
+console.log(c);
+let h=4;
+let s=4;
+let v=3;
+console.log(h==v,h==s)
+const cars=["volvo","sinka","zinka"];
+console.log(cars);
+const person={firstName:"john", lastName:"doe",age:50,eyecolor:"blue"};
+console.log(person);
+console.log(typeof "john");
+console.log(typeof (3+4));

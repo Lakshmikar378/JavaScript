@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iteration</title>
+    </head>
+    <body>
+        <h2>for each by doing this</h2>
+        <p id="demo"></p>
+        <script>
+            const cars=[45,26,32,2,4];
+            let txt=
+            cars.map(myfunction);
+            document.getElementById("demo").innerHTML=txt;
+            
+            function myfunction(value){
+               return value*2;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array</title>  
+    </head>
+    <body>
+        <h2>The array elements are</h2>
+        <p id="demo"></p>
+        <script>
+            const car=new Array("lamborgini","ferrari","tesla");
+            let text="<ul>";
+                for(let i=0;i<car.length;i++)
+                {
+                    text+="<li>"+car[i]+"</li>";
+                }
+                text+="</ul>";
+                document.getElementById("demo").innerHTML=text;
+        </script>
+    </body>
+</html>

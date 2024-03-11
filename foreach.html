@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iteration</title>
+    </head>
+    <body>
+        <h2>for each by doing this</h2>
+        <p id="demo"></p>
+        <script>
+            const cars=["xuv","nano","verna","morris"];
+            let txt=" ";
+            cars.forEach(myfunction);
+            document.getElementById("demo").innerHTML=txt;
+            
+            function myfunction(value,index,array){
+               txt+=value+"<br>";
+            }
+        </script>
+    </body>
+</html>

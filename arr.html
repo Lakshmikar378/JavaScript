@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>function</title>
+    </head>
+    <body>
+        <h2>The elements in the function</h2>
+        <p id="demo"></p>
+        <script>
+           const fruits=["bannana","apple","grapes","guava"];
+           let text="<ul>";
+            fruits.forEach(myFunction);
+            text+="</ul>"
+            document.getElementById("demo").innerHTML=text;
+            function myFunction(value){
+                text+="<li>"+value+"</li>";
+            }
+        </script>
+    </body>
+</html>

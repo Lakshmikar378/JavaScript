@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+</head>
+<body>
+    <h2>JavaScript Template literals</h2>
+    <p>Template literals allows variables in strings:</p>
+    <p id="demo"></p>
+    <p>Template literals are not supported in Internet Explorer</p>
+    <p id="remo"></p>
+    <p>template will be supported in the remo</p>
+    <script>
+        let header="Templates Literals";
+        let tags=["Template","javascript","es6"];
+        let temparature="celcius";
+        let check=["farenheit","mercury","summer"];
+        let html=`<h2>${header}</h2><ul>`;
+        let ht=`<h3>${temparature}</h3><ul>`;
+        for(const x of tags)
+           {
+               html+=`<li>${x}</li>`;
+           }
+         html+='</ul>';
+         document.getElementById("demo").innerHTML=html;
+         for(const y of check)
+         {
+            ht+=`<li>${y}</li>`;
+         }
+         ht+='</ul>';
+         document.getElementById("remo").innerHTML=ht;
+    </script>
+</body>
+</html>

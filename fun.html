@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>apply to it in it or it</h2>
+    <p>the highest number is <span id="demo"></span></p>
+    <script>
+        const points=[2,34,54,65,3];
+        document.getElementById("demo").innerHTML=myarr(points);
+
+        function myarr(arr){
+        return Math.max.apply(null,arr);
+        }
+        </script>
+</body> 
+</html>

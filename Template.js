@@ -1,0 +1,13 @@
+let tex=`im shiva`;
+console.log(tex);
+let n=`i'm a rowdy "romeo"`;
+console.log(n);
+let f="lakshmikar";
+let l="reddy";
+let h=`welcome ${f}${l}`;
+console.log(h);
+let price=10;
+let vat=0.25;
+let total=`total:${(price*(1+vat)).toFixed(2)}`;
+const t=["run","d","ds","ddad"];
+console.log(t.splice(2,0,"dds","dd"));

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iteration</title>
+    </head>
+    <body>
+        <h2>for each by doing this</h2>
+        <p id="demo"></p>
+        <script>
+            const cars=[45,26,32,2,4];
+            let keys=cars.keys();
+            let txt=" ";
+            for (let x of keys) {
+                txt+= x+"<br>";
+            }
+            document.getElementById("demo").innerHTML=txt;
+        </script>
+    </body>
+</html>
